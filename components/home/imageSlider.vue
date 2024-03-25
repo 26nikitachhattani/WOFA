@@ -11,7 +11,7 @@
                             style="background-image:url('http://images.all-free-download.com/images/graphiclarge/beautiful_scenery_04_hd_images_166331.jpg')">
                         </div>
                         <div class="my-2 fill-dimensions cover-img gallery-image"
-                            style="background-image:url('http://images.all-free-download.com/images/graphiclarge/beautiful_scenery_04_hd_images_166331.jpg')">
+                            style="background-image:url('https://i.pinimg.com/564x/6e/4b/b1/6e4bb10e44393da31905c3ac56663099.jpg')">
                         </div>
                         <div class="my-2 fill-dimensions cover-img gallery-image"
                             style="background-image:url('http://images.all-free-download.com/images/graphiclarge/beautiful_scenery_04_hd_images_166331.jpg')">
@@ -21,13 +21,13 @@
                 <v-col class="">
                     <div class="block-33 display--inline-top  ">
                         <div class="my-2 fill-dimensions cover-img gallery-image"
-                            style="background-image:url('http://images.all-free-download.com/images/graphiclarge/beautiful_scenery_04_hd_images_166331.jpg')">
+                            style="background-image:url('https://i.pinimg.com/564x/eb/1e/2e/eb1e2eeefac3fd538486707512c77bb6.jpg')">
                         </div>
                         <div class="my-2 fill-dimensions cover-img gallery-image"
                             style="background-image:url('http://images.all-free-download.com/images/graphiclarge/beautiful_scenery_04_hd_images_166331.jpg')">
                         </div>
                         <div class="my-2 fill-dimensions cover-img gallery-image"
-                            style="background-image:url('http://images.all-free-download.com/images/graphiclarge/beautiful_scenery_04_hd_images_166331.jpg')">
+                            style="background-image:url('https://i.pinimg.com/474x/16/fa/a6/16faa6df4c82bf536af0817159d83788.jpg')">
                         </div>
                     </div>
                 </v-col>
@@ -73,6 +73,10 @@
         -webkit-transform: translate3d(0, -100%, 0);
         transform: translate3d(0, -100%, 0)
     }
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
 }
 
 @keyframes marqueeBottom {
@@ -82,7 +86,7 @@
     }
 
     100% {
-        -webkit-transform: translate3d(0, 0, 0);
+        -webkit-transform: translate3d(-100%, 0, -100%);
         transform: translate3d(0, 0, 0)
     }
 }
