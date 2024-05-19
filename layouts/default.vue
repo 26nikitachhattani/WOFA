@@ -2,9 +2,13 @@
   <v-app dark>
     <v-app-bar :clipped-left="clipped"  app elevation="0">
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
+      <v-spacer></v-spacer>
+    <div class="d-flex">
+      <v-btn dark>Login</v-btn>
+    </div>
     </v-app-bar>
     <v-main>
-      <v-container >
+      <v-container fluid>
         <Nuxt />
       </v-container>
     </v-main>

@@ -1,6 +1,7 @@
 <template>
   <div>
       <home-search-banner />
+      <home-trending />
       <!-- <home-slider /> -->
   </div>
 </template>

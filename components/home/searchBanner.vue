@@ -1,11 +1,20 @@
 <template>
-  <v-row class="justifi">
-    <v-col cols="12" sm="8" md="6">
+  <v-row class="justify pa-0">
+    <v-col cols="12" sm="8" md="12">
       <v-card class="card-class px-10" elevation="0" height="500px">
         <v-card-title class="headline">
           Book 1:1 calls with experts
           <br />
           get instant ️advice
+        </v-card-title>
+        <v-card-title>
+          <v-avatar size="40" class="ml-n2" color="grey darken-3" v-for="i in 4" :key="i">
+          <v-img
+            class="elevation-6"
+            alt=""
+            src="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortCurly&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=Hoodie&clotheColor=White&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light"
+          ></v-img>
+        </v-avatar>
         </v-card-title>
         <v-card-text class="">
           <div class="d-flex">
@@ -49,15 +58,19 @@
         </v-card-text>
       </v-card>
     </v-col>
-    <v-col cols="12" sm="8" md="6">
+    <!-- <v-col cols="12" sm="8" md="6">
       <home-image-slider />
-    </v-col>
+    </v-col> -->
   </v-row>
 </template>
 
 <script>
 export default {
   name: 'IndexPage',
+  data: () => ({
+        loading: false,
+        selection: 1,
+    }),
 }
 </script>
 <style scoped>
